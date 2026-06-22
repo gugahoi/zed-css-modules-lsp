@@ -1,0 +1,16 @@
+id = "cssmodules"
+name = "CSS Modules"
+version = "0.0.1"
+schema_version = 1
+authors = ["gugahoi <355877+gugahoi@users.noreply.github.com>"]
+description = "CSS Modules language server: go-to-definition, hover and completion from JS/TS files to *.module.css"
+repository = "https://github.com/gugahoi/zed-css-modules-lsp"
+
+[language_servers.cssmodules]
+name = "CSS Modules LSP"
+languages = ["TSX", "TypeScript", "JavaScript"]
+
+[language_servers.cssmodules.language_ids]
+"TSX" = "typescriptreact"
+"TypeScript" = "typescript"
+"JavaScript" = "javascript"
