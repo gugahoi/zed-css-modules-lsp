@@ -1,5 +1,5 @@
-id = "css-modules"
-name = "CSS Modules"
+id = "css-modules-lsp"
+name = "CSS Modules LSP"
 version = "0.0.1"
 schema_version = 1
 authors = ["gugahoi <355877+gugahoi@users.noreply.github.com>"]
